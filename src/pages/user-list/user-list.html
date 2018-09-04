@@ -1,0 +1,16 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Ion List</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+    <ion-list>
+        <ion-list-header>
+          <p>title</p>
+        </ion-list-header>
+        <ion-item *ngFor="let dt of data">{{dt.id}}-{{dt.title}}</ion-item>
+      </ion-list>
+</ion-content>

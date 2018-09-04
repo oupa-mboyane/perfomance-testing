@@ -1,0 +1,18 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>div-list</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+ <div class="header">
+    <p>Title</p>
+  </div>
+  <div class="list-item" *ngFor="let dt of data">
+    {{dt.id}}-{{dt.title}}
+    <hr>
+  </div>
+</ion-content>
